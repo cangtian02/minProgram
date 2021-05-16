@@ -1,0 +1,17 @@
+<!--pages/index/content/content.wxml-->
+<view class="content">
+  <text class="content_title">本月支出</text>
+  <view class="big_price">
+    <text class="l">￥</text>
+    <text class="r">{{expenditure}}</text>
+  </view>
+  <text class="small_price">本月收入￥{{income}}</text>
+  <view class="item_content" wx:if="{{itemArr.length > 0}}">
+    <bookItem itemArr="{{itemArr}}" />
+  </view>
+  <view bindtap="tapLookAll" class="look_all">
+    <text class="l">查看所有明细</text>
+    <text class="r">></text>
+  </view>
+  <view bindtap="saveItem" class="save_item">记一笔</view>
+</view>

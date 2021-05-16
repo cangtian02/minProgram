@@ -1,0 +1,6 @@
+/**index.wxss**/
+page {
+  min-height: 100%;
+  background: #00B26A;
+}
+

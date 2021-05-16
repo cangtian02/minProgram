@@ -1,0 +1,23 @@
+<!--pages/index/dataAnalysis.wxml-->
+<view class="data_analysis">
+  <view class="header">
+    <text class="l">数据分析</text>
+    <view class="r" bindtap="tranMonth">2019年11月</view>
+  </view>
+  <view class="category">
+    <text class="title">支出类别</text>
+    <view class="item_content">
+      <view class="item" wx:for="{{analysis}}" wx:for-index="index" wx:for-item="item" wx:key="{{index}}">
+        <view class="l" style="background: {{item.color}}"></view>
+        <view class="r">
+          <text class="t">{{item.name}}</text>
+          <text class="b">{{item.num}}%</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <canvas 
+    canvas-id="chart" class="chart_content" id="chart_content"
+    bindtouchstart="chartTouchStart"
+  />
+</view>

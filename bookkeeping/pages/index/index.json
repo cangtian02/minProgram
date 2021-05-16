@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "content": "./content/content",
+    "dataAnalysis": "./dataAnalysis/dataAnalysis"
+  }
+}

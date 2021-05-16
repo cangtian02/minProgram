@@ -1,0 +1,61 @@
+/* components/bookItem/bookItem.wxss */
+.item {
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+}
+
+.item .l {
+  width: 70rpx;
+  height: 70rpx;
+  margin-right: 36rpx;
+  background: #3EB575;
+  border-radius: 35rpx;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.item .r {
+  flex: 1;
+  height: 120rpx;
+  overflow: hidden;
+}
+
+.item .r{
+  border-top: 1rpx solid #EDEDED;
+}
+
+.item:first-child .r{
+  border-top: none;
+}
+
+.item .r .r_t {
+  height: 30rpx;
+  margin-top: 28rpx;
+  display: flex;
+  align-items: center;
+}
+
+.item .r .r_t_l {
+  flex: 1;
+  font-size: 24rpx;
+  color: #000;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-right: 50rpx;
+}
+
+.item .r .r_t_r {
+  font-size: 30rpx;
+  color: #000;
+  font-weight: 600;
+}
+
+.item .r .r_b {
+  font-size: 24rpx;
+  color: #A8A8A8;
+}

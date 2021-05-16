@@ -1,0 +1,84 @@
+/* pages/index/content/content.wxss */
+.content {
+  margin: 20rpx 20rpx 60rpx 20rpx;
+  padding: 80rpx 20rpx 60rpx 20rpx;
+  background: #fff;
+  border-radius: 4rpx;
+}
+
+.content_title {
+  display: flex;
+  justify-content: center;
+  color: #00B26A;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+
+.big_price {
+  height: 66rpx;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 14rpx;
+}
+
+.big_price .l {
+  color: #00B26A;
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-top: 10rpx;
+  margin-right: 4rpx;
+}
+
+.big_price .r {
+  color: #00B26A;
+  font-size: 56rpx;
+  font-weight: 400;
+}
+
+.small_price {
+  display: flex;
+  justify-content: center;
+  font-size: 24rpx;
+  line-height: 60rpx;
+  color: #A8A8A8;
+}
+
+.item_content {
+  margin: 20rpx 30rpx 0 30rpx;
+  border-top: 1rpx solid #EDEDED;
+  border-bottom: 1rpx solid #EDEDED;
+}
+
+.look_all {
+  height: 100rpx;
+  margin: 0 30rpx;
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #EDEDED;
+}
+
+.look_all .l {
+  flex: 1;
+  font-size: 28rpx;
+  color: #000;
+  font-weight: 500;
+}
+
+.look_all .r {
+  color: #A8A8A8;
+  font-size: 24rpx;
+}
+
+.save_item {
+  width: 220rpx;
+  height: 80rpx;
+  background: #00B26A;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  margin: 60rpx auto 0 auto;
+}

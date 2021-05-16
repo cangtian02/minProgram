@@ -1,0 +1,11 @@
+<!--components/bookItem/bookItem.wxml-->
+<view wx:for="{{itemArr}}" wx:for-index="index" wx:for-item="item" wx:key="{{index}}" class="item">
+  <view class="l">{{item.name}}</view>
+  <view class="r">
+    <view class="r_t">
+      <text class="r_t_l">{{item.content}}</text>
+      <text class="r_t_r">{{item.price}}</text>
+    </view>
+    <text class="r_b">{{item.date}}</text>
+  </view>
+</view>
